@@ -1,0 +1,39 @@
+.centering{
+  margin-top:100px;
+}
+
+
+
+h1 {
+  color : #C4E538;
+  font-size : 30px;
+  font-family: "Trebuchet MS";
+}
+
+#paragraphe{
+margin-top:35px;
+font-family: "Trebuchet MS";
+font-size:16px;
+color:#808e9b;
+}
+
+.button-primary{
+   color: #fff;
+   background-color: #C4E538;
+   border-color: #2E4C80;
+
+}
+
+
+#togglebutton{
+  margin-right: 30px;
+}
+
+
+#filtre{
+    margin: 5.5px;
+    padding-right: 20px;
+    color:#808e9b;
+    font-family: "Trebuchet MS";
+    font-size:16px;
+}
