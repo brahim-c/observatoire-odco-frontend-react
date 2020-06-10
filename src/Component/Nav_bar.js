@@ -11,9 +11,7 @@ import { Map1 } from "../Map/Map1";
 import Statcoop from "./Statcoop.js";
 import { ReactComponentProps } from "react-router-dom";
 
-const Nav_bar: React.FC<Props> = ({ history }) => {
-  const [input, setInput] = useState("");
-
+function Nav_bar() {
   var icon = (
     <span class="logo">
       <a href="/">
@@ -58,6 +56,6 @@ const Nav_bar: React.FC<Props> = ({ history }) => {
       </Navbar>
     </div>
   );
-};
+}
 
 export default Nav_bar;
